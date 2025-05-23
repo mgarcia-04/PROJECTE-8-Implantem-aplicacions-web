@@ -1,0 +1,21 @@
+<html>
+<html lang="ca">
+    <head>
+        <title>Formulari dades</title>
+    </head>
+    <body>
+        <form method="post" action="Form8.php">
+            <label for="nom">Nom:</label><br>
+            <input type="text" name="nom" id="nom" value="<?= $nom ?>"><br><br>
+
+            <label for="email">Email:</label><br>
+            <input type="text" name="email" id="email" value="<?= $email ?>"><br><br>
+
+            <label for="edat">Edat:</label><br>
+            <input type="number" name="edat" id="edat" value="<?= $edat ?>"><br><br>
+
+            <input type="submit" value="Enviar">
+        </form>
+        
+    </body>
+</html>
